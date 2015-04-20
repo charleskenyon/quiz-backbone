@@ -29,7 +29,7 @@ var Questions = Backbone.Collection.extend({
 	
 	url: "questions.json",
 	
-	parse: function(response){
+	parse: function(response) {
 		return response.questions;
     },
 	
