@@ -30,7 +30,7 @@ var Questions = Backbone.Collection.extend({
 	url: "questions.json",
 	
 	parse: function(response){
-       return response.questions;
+		return response.questions;
     },
 	
 	setOrder: function() {
