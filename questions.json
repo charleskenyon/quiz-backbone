@@ -1,0 +1,104 @@
+{
+    "questions": [
+        {
+            "question": "Who is Prime Minister of the United Kingdom?",
+            "choices": [
+                "David Cameron",
+                "Gordon Brown",
+                "Winston Churchill",
+                "Tony Blair"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "question": "Name the king who failed to keep an eye on things at the battle of Hastings?",
+            "choices": [
+                "Harold",
+                "Richard",
+                "Beowolf",
+                "Eric"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "question": "In which sport would you use a chucker?",
+            "choices": [
+                "Golf",
+                "Polo",
+                "Handball",
+                "Rugby"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "question": "Name the fruit which earned its name from the way it hung in bunches like grapes?",
+            "choices": [
+                "Grapefruit",
+                "Apple",
+                "Bananas",
+                "Pomegranate"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "question": "What girls name is also the term used to describe a female donkey?",
+            "choices": [
+                "Dorris",
+                "Barbara",
+                "Jenny",
+                "Justine"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "question": "If you happened to be plaining and pearling what would you be doing?",
+            "choices": [
+                "Singing",
+                "Polishing",
+                "Sowing-seeds",
+                "Knitting"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "question": "What sort of books is Arthur C Clarke famous for writing?",
+            "choices": [
+                "Fantasy",
+                "Crime",
+                "Science Fiction",
+                "Historic"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "question": "Which river forms the eastern section of the border between England and Scotland?",
+            "choices": [
+                "Tweed",
+                "Weir",
+                "Tyne",
+                "Wye"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "question": "What is converted into alcohol during brewing?",
+            "choices": [
+                "Yeast",
+                "Hops",
+                "Sugar",
+                "Starch"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "question": "Who was Radio 1's first female DJ?",
+            "choices": [
+                "Anne Nightingale",
+                "Mary Anne Hobbs",
+                "Jo While",
+                "Sara Cox"
+            ],
+            "correctAnswer": 0
+        }
+    ]
+}

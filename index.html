@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Backbone.js Quiz</title>
+	<link rel="stylesheet" href="css/lib/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+</body>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2">
+			</div>
+			<div class="col-md-8 col-md-offset-2">
+				<h1>Quiz</h1>
+				<br />
+				<div id="container1"></div>
+			</div>
+			<div class="col-md-2 col-md-offset-10">
+			</div>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="js/lib/jquery.min.js"></script>
+	<script type="text/javascript" src="js/lib/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/lib/underscore.min.js"></script>
+	<script type="text/javascript" src="js/lib/backbone.min.js"></script>
+	<script type="text/javascript" src="js/lib/mustache.min.js"></script>
+	
+	<script type="text/javascript" src="js/models/models.js"></script>
+	<script type="text/javascript" src="js/views/views.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	
+	<script type="text/html" id="questionsTemplate">
+	
+		<p> {{number}}. {{question}} </p>
+		<form>
+			
+			<br />
+			<label>
+				<input type="radio" name="options" value="1" {{#checked1}} checked {{/checked1}}>
+				<p> {{choices.0}} </p>
+			</label>
+			<br /><br />
+			<label>
+				<input type="radio" name="options" value="2" {{#checked2}} checked {{/checked2}}>
+				<p> {{choices.1}} </p>
+			</label>
+			<br /><br />
+			<label>
+				<input type="radio" name="options" value="3" {{#checked3}} checked {{/checked3}}>
+				<p> {{choices.2}} </p>
+			</label>
+			<br /><br />
+			<label>
+				<input type="radio" name="options" value="4" {{#checked4}} checked {{/checked4}}>
+				<p> {{choices.3}} </p>
+			</label>
+			
+		</form>
+		
+		<br />
+		<button class="btn btn-default" id="prev">Go Back</button>
+		<button class="btn btn-default" id="next">Next Question</button>
+	
+		
+	</script>
+	
+	<script type="text/html" id="endTemplate">
+		<h3>You scored...</h3>
+		<br />
+		<h4> {{ score }} out of 10 </h4>
+	</script>
+	
+</html>

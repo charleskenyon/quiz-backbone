@@ -1,0 +1,7 @@
+label > input, label > p {
+	display: inline
+}
+
+label {
+    font-weight: normal !important;
+}
