@@ -19,7 +19,8 @@ var Score = Backbone.Model.extend({
 	
 	minusOne: function() {
 		score.attributes.score--;
-	},
+	}
+	
 });
 
 var Questions = Backbone.Collection.extend({

@@ -90,6 +90,7 @@ var QuestionsView = Backbone.View.extend({
 		currentModel--;
 		this.render();
 	}
+	
 })
 
 var ScoreView = Backbone.View.extend({
@@ -109,4 +110,5 @@ var ScoreView = Backbone.View.extend({
 		
 		return this;
 	}
+	
 });
